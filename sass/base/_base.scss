@@ -1,0 +1,64 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body > * {
+    flex-shrink: 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+
+.bgcolor {
+    background-color: #F2F8F6;
+}
+
+.none {
+    display: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 20px;
+}

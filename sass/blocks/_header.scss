@@ -1,0 +1,81 @@
+.header {
+    height: 870px;
+    position: relative;
+
+    background-image: url(./../img/header/header_fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    
+        background-color: rgba(0, 0, 0, 0.35)
+    }
+    
+    &__wrapper {
+        padding-top: 60px;
+        position: absolute;
+        z-index: 9;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        
+        color: white;
+    }
+    
+    &__btns {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__content  {
+        margin-top: 140px;
+        text-align: center;
+    }
+
+    &__text {
+        width: 730px;
+        margin: 40px auto 70px;
+
+        p   {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+    }
+
+    &__form {
+        margin-left: auto;
+        margin-right: auto;
+
+        input   {
+            width: 240px;
+            padding: 21px 134px 22px 30px;
+            margin-right: 20px;
+
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            border-radius: 30px;
+
+            color: rgb(255, 255, 255);
+            border: #000;
+            background: rgba(0, 0, 0, 0.75);
+        }
+    }
+    
+    
+    &__scroll {
+        position: absolute;
+        left: calc(50% - 16px);
+        bottom: 100px;
+    }
+}

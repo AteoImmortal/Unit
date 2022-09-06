@@ -1,0 +1,31 @@
+.block  {
+    width: 270px;
+
+    text-align:center;
+
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+
+    &__bold {
+        margin-bottom: 20px;
+    }
+
+    b   {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.0;
+
+        color: #2E2E2E;
+    }
+
+    p   {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 30px;
+        
+        color: #808080;
+    }
+}

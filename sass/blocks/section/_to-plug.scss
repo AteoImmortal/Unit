@@ -1,0 +1,21 @@
+.main   {
+    &__to-plug  {
+        padding-top: 83px;
+        padding-bottom: 84px;
+
+        text-align: center;
+        background-image:   url(./../img/main/use_unit.jpg);
+
+        & p {
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 1.0;
+
+            color: #FFFFFF;
+        }
+
+        button {
+            margin-top: 40px;
+        }
+    }
+}
