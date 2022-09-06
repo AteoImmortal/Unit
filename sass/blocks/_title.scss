@@ -1,4 +1,16 @@
 .title  {
+
+    &-green {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.0;
+        text-align: center;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+
+        color: #15D784;
+    }
+
     &-1 {
         font-weight: 700;
         font-size: 96px;
