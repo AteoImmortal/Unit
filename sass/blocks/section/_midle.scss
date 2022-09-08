@@ -1,0 +1,92 @@
+.main   {
+    &__midle   {
+    background: #E5E5E5;
+}
+
+    &__iphone   {
+        
+        &-row    {
+            margin-right: auto;
+            margin-left: auto;
+            padding-top: 80px;
+            padding-bottom: 40px;
+            width: 956px;
+        
+            align-items: center;
+            border-bottom:  1px solid #E1E1E1;
+            display: flex;
+        }
+        
+        &-content    {
+                margin-right: 70px;
+            .title-2    {
+                margin-bottom: 30px;
+            }
+            
+            .title-green   {
+                margin-bottom: 39px;
+                text-align: left;
+            }
+        }
+
+        &-text   {
+            width: 400px;
+    
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 30px;
+                
+            color: #808080;
+        }
+
+        &__iphone-x    {
+            width: 356px;
+            height: 602px;
+        }
+    }
+    
+}
+
+
+.main__ipad    {
+
+    &-row    {
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 80px;
+        padding-bottom: 40px;
+        width: 1170px;
+    
+        border-bottom:  1px solid #E1E1E1;
+        display: flex;
+    }
+
+    &-content    {
+
+        .title-2    {
+            margin-bottom: 30px;
+            text-align: left;
+        }
+        
+        .title-green   {
+            margin-bottom: 30px;
+            text-align: left;
+        }
+    }
+
+    &-text  {
+        width: 400px;
+        margin-bottom: 132px;
+    
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 30px;
+            
+        color: #808080;
+    }
+
+    &-pro   {
+        margin-right: 130px;
+    }
+
+}

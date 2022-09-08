@@ -14,7 +14,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 img {
   display: block;
-  max-width: 100%;
   height: auto;
 }
 
@@ -252,10 +251,10 @@ __form
   margin-top: 40px;
 }
 
-.main__tasks {
+.main__midle {
   background: #E5E5E5;
 }
-.main__tasks-row {
+.main__iphone-row {
   margin-right: auto;
   margin-left: auto;
   padding-top: 80px;
@@ -267,26 +266,56 @@ __form
   display: -webkit-box;
   display: flex;
 }
-.main__tasks-content {
+.main__iphone-content {
   margin-right: 70px;
 }
-.main__tasks-content .title-2 {
+.main__iphone-content .title-2 {
   margin-bottom: 30px;
 }
-.main__tasks-content .title-green {
+.main__iphone-content .title-green {
   margin-bottom: 39px;
   text-align: left;
 }
-.main__tasks-text {
+.main__iphone-text {
   width: 400px;
   font-weight: 500;
   font-size: 14px;
   line-height: 30px;
   color: #808080;
 }
-.main__tasks-img {
+.main__iphone__iphone-x {
   width: 356px;
   height: 602px;
+}
+
+.main__ipad-row {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  width: 1170px;
+  border-bottom: 1px solid #E1E1E1;
+  display: -webkit-box;
+  display: flex;
+}
+.main__ipad-content .title-2 {
+  margin-bottom: 30px;
+  text-align: left;
+}
+.main__ipad-content .title-green {
+  margin-bottom: 30px;
+  text-align: left;
+}
+.main__ipad-text {
+  width: 400px;
+  margin-bottom: 132px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  color: #808080;
+}
+.main__ipad-pro {
+  margin-right: 130px;
 }
 
 /*# sourceMappingURL=main.css.map */
