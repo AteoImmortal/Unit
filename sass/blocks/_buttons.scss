@@ -17,6 +17,28 @@
             
         }
     }
+
+    &__transparent  {
+        padding: 21px 40px 22px;
+        margin-bottom: 40px;
+
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 30px;
+
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+
+        background: rgba(0, 0, 0, 0);
+        color: #FFFFFF;
+
+        &--white    {
+            background: #FFFFFF;
+            color: #2E2E2E;
+        }
+    }
 }
 
 
@@ -32,8 +54,6 @@
     background-color: #fff;
     border: 0;
     cursor: pointer;
-    
-    __form
 
     
     &-round:hover {

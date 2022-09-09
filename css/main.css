@@ -169,6 +169,23 @@ label {
   border: #00C470;
   background-color: #00C470;
 }
+.button__transparent {
+  padding: 21px 40px 22px;
+  margin-bottom: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0);
+  color: #FFFFFF;
+}
+.button__transparent--white {
+  background: #FFFFFF;
+  color: #2E2E2E;
+}
 
 .button-round {
   display: -webkit-box;
@@ -184,7 +201,6 @@ label {
   border: 0;
   cursor: pointer;
 }
-__form
 .button-round-round:hover {
   background: #00C470;
 }
@@ -316,6 +332,97 @@ __form
 }
 .main__ipad-pro {
   margin-right: 130px;
+}
+
+.main__prices {
+  padding-top: 90px;
+  padding-bottom: 100px;
+  text-align: center;
+  background-image: url(./../img/main/price.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main__prices .title-2 {
+  margin-bottom: 80px;
+  color: #FFFFFF;
+}
+.main__prices-row {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+.main__price {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.0;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.pocket {
+  width: 300px;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+}
+.pocket__header {
+  padding-bottom: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.pocket__name {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.0;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #B2B2B2;
+}
+.pocket .price {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 100%;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.pocket .price__text {
+  margin-top: 40px;
+  margin-bottom: 58px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2.5;
+  color: #FFFFFF;
+}
+.pocket .monthly-price {
+  width: 93px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+}
+.pocket .monthly-price p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.0;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.pocket--white {
+  background: rgba(48, 79, 254, 0.95);
+}
+.pocket--white__name {
+  color: #FFFFFF;
+}
+.pocket--white .monthly-price {
+  background: rgba(0, 0, 0, 0.1);
 }
 
 /*# sourceMappingURL=main.css.map */
