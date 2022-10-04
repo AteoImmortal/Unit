@@ -155,8 +155,71 @@ label {
   position: absolute;
   left: calc(50% - 16px);
   bottom: 100px;
+  -webkit-animation-name: scroll;
+          animation-name: scroll;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
-
+@-webkit-keyframes scroll {
+  0% {
+    bottom: 100px;
+  }
+  12% {
+    bottom: 96px;
+  }
+  25% {
+    bottom: 92px;
+  }
+  37% {
+    bottom: 96px;
+  }
+  50% {
+    bottom: 100px;
+  }
+  62% {
+    bottom: 104px;
+  }
+  75% {
+    bottom: 108px;
+  }
+  87% {
+    bottom: 104px;
+  }
+  100% {
+    bottom: 100px;
+  }
+}
+@keyframes scroll {
+  0% {
+    bottom: 100px;
+  }
+  12% {
+    bottom: 96px;
+  }
+  25% {
+    bottom: 92px;
+  }
+  37% {
+    bottom: 96px;
+  }
+  50% {
+    bottom: 100px;
+  }
+  62% {
+    bottom: 104px;
+  }
+  75% {
+    bottom: 108px;
+  }
+  87% {
+    bottom: 104px;
+  }
+  100% {
+    bottom: 100px;
+  }
+}
 .button__form {
   padding: 21px 40px 22px;
   font-weight: 800;
